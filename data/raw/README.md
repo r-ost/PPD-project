@@ -1,0 +1,1 @@
+Place downloaded Yelp-JSON.zip file in this directory.

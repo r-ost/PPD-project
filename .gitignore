@@ -1,3 +1,7 @@
+# # Yelp dataset
+data/raw/*
+!data/raw/README.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
