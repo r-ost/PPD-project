@@ -2,7 +2,9 @@ import zipfile
 import tarfile
 import os
 
-def download_yelp_data(output_dir):
+def decompress_yelp_data(output_dir):
+    """Extracts the Yelp dataset into the specified output directory."""
+    
     url = "https://business.yelp.com/external-assets/files/Yelp-JSON.zip"
     zip_path = os.path.join(output_dir, "Yelp-JSON.zip")
 
