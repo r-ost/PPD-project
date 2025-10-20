@@ -31,3 +31,8 @@
   ```bash
   uv add <package-name>
   ```
+
+
+### Data download
+
+Download the Yelp dataset from [this link](https://business.yelp.com/external-assets/files/Yelp-JSON.zip) and place the ZIP file in the `data/raw/` directory. Then run `notebooks/01_eda.ipynb` to decompress the data.
